@@ -1,0 +1,20 @@
+body {
+    background-image: url("/static/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 4px black;
+}
+
+ .form-box {
+      background-color: rgba(255, 255, 255, 0.5); /* %50 şeffaf */
+      padding: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+      width: 100%;
+      max-width: 400px;  /* Bu kısımla genişliği sınırlıyoruz */
+      margin-left: 450px;
+ }
