@@ -1,7 +1,7 @@
 from sqlmodel import SQLModel, Field, create_engine
 from pydantic import BaseModel, EmailStr, field_validator
 
-DATABASE_URL = "postgresql://postgres:postgres@localhost:5432/fastapi_db"
+DATABASE_URL = "postgresql://kul_adi:sifre@localhost:5432/fastapi_db"
 engine = create_engine(DATABASE_URL, echo=True)
 
 class User(SQLModel, table=True):
