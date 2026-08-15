@@ -4,7 +4,7 @@ from sklearn.linear_model import LinearRegression
 import pickle
 
 # Veriyi yükle
-data = pd.read_csv("C:/Users/LENOVO/PycharmProjects/fastapi_dondurma_karı_tahmini/Ice Cream Sales - temperatures.csv")
+data = pd.read_csv("fastapi_dondurma_karı_tahmini/Ice Cream Sales - temperatures.csv")
 
 # X ve y belirle
 X = data[["Temperature"]]
