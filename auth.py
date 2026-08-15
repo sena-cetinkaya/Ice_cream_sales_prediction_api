@@ -6,7 +6,7 @@ from fastapi.security import OAuth2PasswordBearer
 from sqlmodel import Session, select
 from models import User, engine
 
-SECRET_KEY = "secret123"
+SECRET_KEY = "your_key"
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 2
 REFRESH_TOKEN_EXPIRE_DAYS = 7  # refresh token 7 gün aktif olacak
